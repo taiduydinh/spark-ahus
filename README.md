@@ -98,7 +98,7 @@ Spark-AHUS is being prepared for submission to the [4th International Conference
 
 ```bibtex
 @unpublished{dinh2026sparkahus,
-  author = {Dinh, Tai},
+  author = {Ashik Kazi, Tai Dinh*, Wuyi Yue},
   title = {Spark-AHUS: An Adaptive Pure-Array Parallel Framework for High-Utility Sequential Pattern Mining},
   year = {2026},
   note = {Manuscript prepared for submission to the 4th International Conference on Sustainable Computing and Data Communication Systems (ICSCDS 2026)},

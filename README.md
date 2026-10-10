@@ -92,20 +92,16 @@ The evaluated source `codes/spark_ahus.py` has SHA-256:
 Run `python tools/audit_repository.py` for the source and static archive audit.
 Archived outputs and input fingerprints remain in `results/` metadata.
 
-## Datasets and omitted files
+## Citation
 
-The ZIP preserves prepared inputs and metadata, except three large KOSARAK
-files excluded from the original export. See `dataset/README.md` and
-`dataset/excluded_large_files.tsv`. The largest omitted input
-`prepared/direct_utility/KOSARAK_full.txt` is required to rerun the original
-full-KOSARAK and scalability cases. **Do not generate replacement bytes with
-new utility parameters and call that a reproduction.**
+Spark-AHUS is being prepared for submission to the [4th International Conference on Sustainable Computing and Data Communication Systems (ICSCDS 2026)](https://icscds.com/2026/), scheduled for 15–17 December 2026. The citation below is **provisional** and will be updated if the paper is accepted and published.
 
-Do not publish third-party benchmark data or vendored algorithm snapshots
-until their redistribution permissions and required attribution are confirmed.
-
-## Code licensing and citation
-
-See `LICENSE_PENDING.md` for the publishing checklist. A project license should
-be selected by its copyright holders. `CITATION.cff` is provisional until the
-paper has an official bibliographic record.
+```bibtex
+@unpublished{dinh2026sparkahus,
+  author = {Dinh, Tai},
+  title = {Spark-AHUS: An Adaptive Pure-Array Parallel Framework for High-Utility Sequential Pattern Mining},
+  year = {2026},
+  note = {Manuscript prepared for submission to the 4th International Conference on Sustainable Computing and Data Communication Systems (ICSCDS 2026)},
+  url = {https://github.com/taiduydinh/spark-ahus}
+}
+```

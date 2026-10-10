@@ -1,0 +1,62 @@
+{
+  "calibration": {
+    "computed_at": "2026-10-08T14:00:59+00:00",
+    "identity": {
+      "mtime_ns": 1791425098532333713,
+      "path": "/work/prepared/direct_utility/C8T1S5I8N5K.txt",
+      "size": 11489776
+    },
+    "method": "per-sequence maximum occurrence utility, summed across sequences",
+    "sequences": 47132,
+    "top_singleton_item": 4999999,
+    "top_singleton_utility": 282912.0
+  },
+  "command": [
+    "taskset",
+    "-c",
+    "24,25,32,33,34,35,36,37,38,39,26,40",
+    "spark-submit",
+    "--master",
+    "local[12]",
+    "--driver-memory",
+    "12g",
+    "/work/spark_ahus.py",
+    "--input",
+    "/work/prepared/direct_utility/C8T1S5I8N5K.txt",
+    "--value-mode",
+    "utility",
+    "--min-utility",
+    "282912",
+    "--max-pattern-length",
+    "3",
+    "--partitions",
+    "12",
+    "--count-only",
+    "--stats-json",
+    "/work/results/exploratory/C8T1S5I8N5K/T5_stats.json"
+  ],
+  "duration_wall_sec": 9.757,
+  "exit_code": 0,
+  "finished_at": "2026-10-08T18:05:02+00:00",
+  "key": "exploratory_C8T1S5I8N5K/T5",
+  "kind": "exploratory",
+  "log": "logs/exploratory/C8T1S5I8N5K/T5.log",
+  "max_pattern_length": 3,
+  "min_utility": 282912,
+  "physical_cpus": [
+    24,
+    25,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    26,
+    40
+  ],
+  "stats": "results/exploratory/C8T1S5I8N5K/T5_stats.json",
+  "status": "complete"
+}

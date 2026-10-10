@@ -1,0 +1,22 @@
+{
+  "algorithm": "husspan",
+  "case": "L3",
+  "cpu": 46,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 380.177,
+  "exit_code": 0,
+  "finished": "2026-10-08T17:33:46+00:00",
+  "group": "bible_length",
+  "input": "/work/prepared/baselines/BIBLE.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/husspan/bible_length/L3.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 449900,
+  "observed_peak_rss_kb": 373444,
+  "scale": 1,
+  "source": "/work/prepared/direct_utility/Bible.txt",
+  "source_sha256": "ae99159d8b9a239a6520f842bfb661bcaf7c053b37513516a2ec1ad7f6eb8ef1",
+  "stats_path": "/work/results/baselines/husspan/bible_length/L3_stats.json",
+  "status": "complete"
+}

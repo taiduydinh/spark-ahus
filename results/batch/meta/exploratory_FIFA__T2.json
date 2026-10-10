@@ -1,0 +1,62 @@
+{
+  "calibration": {
+    "computed_at": "2026-10-08T14:00:58+00:00",
+    "identity": {
+      "mtime_ns": 1791425095684409207,
+      "path": "/work/prepared/direct_utility/FIFA.txt",
+      "size": 8120431
+    },
+    "method": "per-sequence maximum occurrence utility, summed across sequences",
+    "sequences": 20450,
+    "top_singleton_item": 90,
+    "top_singleton_utility": 2623474.0
+  },
+  "command": [
+    "taskset",
+    "-c",
+    "18,19,20,21,22,23,3,4,5,6,7,8",
+    "spark-submit",
+    "--master",
+    "local[12]",
+    "--driver-memory",
+    "12g",
+    "/work/spark_ahus.py",
+    "--input",
+    "/work/prepared/direct_utility/FIFA.txt",
+    "--value-mode",
+    "utility",
+    "--min-utility",
+    "7870422",
+    "--max-pattern-length",
+    "3",
+    "--partitions",
+    "12",
+    "--count-only",
+    "--stats-json",
+    "/work/results/exploratory/FIFA/T2_stats.json"
+  ],
+  "duration_wall_sec": 11.181,
+  "exit_code": 0,
+  "finished_at": "2026-10-08T17:03:57+00:00",
+  "key": "exploratory_FIFA/T2",
+  "kind": "exploratory",
+  "log": "logs/exploratory/FIFA/T2.log",
+  "max_pattern_length": 3,
+  "min_utility": 7870422,
+  "physical_cpus": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "stats": "results/exploratory/FIFA/T2_stats.json",
+  "status": "complete"
+}

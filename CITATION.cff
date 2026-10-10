@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use Spark-AHUS, please cite the associated research paper when available."
+title: "Spark-AHUS: An Adaptive Pure-Array Parallel Framework for High-Utility Sequential Pattern Mining"
+authors:
+  - family-names: Dinh
+    given-names: Tai

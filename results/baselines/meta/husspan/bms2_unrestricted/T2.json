@@ -1,0 +1,22 @@
+{
+  "algorithm": "husspan",
+  "case": "T2",
+  "cpu": 46,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 229.251,
+  "exit_code": 0,
+  "finished": "2026-10-08T15:46:09+00:00",
+  "group": "bms2_unrestricted",
+  "input": "/work/prepared/baselines/BMS2.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/husspan/bms2_unrestricted/T2.log",
+  "max_pattern_length": 0,
+  "min_utility_scaled": 60001,
+  "observed_peak_rss_kb": 140244,
+  "scale": 1,
+  "source": "/work/prepared/paper_original/BMS-WebView-2.txt",
+  "source_sha256": "05b3b326e13dce403c3136ad5a0af4dac10c77e181d31da992c48d7512f1aa2d",
+  "stats_path": "/work/results/baselines/husspan/bms2_unrestricted/T2_stats.json",
+  "status": "complete"
+}

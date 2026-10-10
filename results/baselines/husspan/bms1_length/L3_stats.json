@@ -1,0 +1,17 @@
+{
+  "algorithm": "husspan",
+  "code_sha256": "772611741a7d8fd3bce27ff9bcec43c63328c900156e20e30cc613a3382ecd97",
+  "cpu_affinity": [
+    43
+  ],
+  "husp_count": 5,
+  "input": "/work/prepared/baselines/BMS1.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 108404,
+  "min_utility_scaled": 44994,
+  "patterns_file": "/work/results/baselines/husspan/bms1_length/L3_patterns.txt",
+  "patterns_lines": 5,
+  "python": "3.11.5",
+  "runtime_sec": 372.24103676795494
+}

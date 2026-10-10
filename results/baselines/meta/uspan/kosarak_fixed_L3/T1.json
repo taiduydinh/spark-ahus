@@ -1,0 +1,22 @@
+{
+  "algorithm": "uspan",
+  "case": "T1",
+  "cpu": 42,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 1200.858,
+  "exit_code": -15,
+  "finished": "2026-10-09T10:27:53+00:00",
+  "group": "kosarak_fixed_L3",
+  "input": "/work/prepared/baselines/KOSARAK.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/uspan/kosarak_fixed_L3/T1.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 1053684,
+  "observed_peak_rss_kb": 14673568,
+  "scale": 1,
+  "source": "/work/prepared/direct_utility/KOSARAK_full.txt",
+  "source_sha256": "d0cfe8d6bb3938bae6f72e670ea61a9c51da29300c16d79f2dcd286625dbc0cb",
+  "stats_path": "/work/results/baselines/uspan/kosarak_fixed_L3/T1_stats.json",
+  "status": "timeout"
+}

@@ -1,0 +1,22 @@
+{
+  "algorithm": "husspan",
+  "case": "L5",
+  "cpu": 45,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 10.012,
+  "exit_code": 0,
+  "finished": "2026-10-08T17:45:10+00:00",
+  "group": "tafeng_length",
+  "input": "/work/prepared/baselines/TAFENG.txt",
+  "item_id_offset": 1,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/husspan/tafeng_length/L5.log",
+  "max_pattern_length": 5,
+  "min_utility_scaled": 1064437143,
+  "observed_peak_rss_kb": 61944,
+  "scale": 100,
+  "source": "/work/prepared/paper_original/Tafeng.txt",
+  "source_sha256": "48b2cdc7dd0b389ca8b8e494bccfad5f5ba366c24197b4f44d423b6e036e057d",
+  "stats_path": "/work/results/baselines/husspan/tafeng_length/L5_stats.json",
+  "status": "complete"
+}

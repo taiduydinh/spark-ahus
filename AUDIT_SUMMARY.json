@@ -1,0 +1,15 @@
+{
+  "files_in_original": 708,
+  "original_manifest_entries": 707,
+  "final_algorithm_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "case_coverage": {
+    "complete": 52,
+    "timeout": 7,
+    "blocked": 22
+  },
+  "baseline_exact_checked": 27,
+  "baseline_exact_disagreements": 0,
+  "available_dataset_matching": 58,
+  "available_dataset_mismatching": 0,
+  "dataset_unavailable": 1
+}

@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "60a866bf8c4442d480847556a95a3b05ff6164e4f15c69b80ca0a6e95f93d64f",
+  "exit_code": 0,
+  "key": "exploratory_Leviathan/T3",
+  "kind": "exploratory",
+  "log": "/work/logs/optimized_full_suite/exploratory_Leviathan__T3.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/exploratory_Leviathan__T3_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/exploratory_Leviathan__T3_stats.json",
+  "status": "complete",
+  "threshold": "90592",
+  "threshold_type": "min-utility",
+  "timestamp": "2026-10-09T23:36:59+00:00",
+  "wall_sec": 10.3417
+}

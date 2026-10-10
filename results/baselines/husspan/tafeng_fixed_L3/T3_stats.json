@@ -1,0 +1,17 @@
+{
+  "algorithm": "husspan",
+  "code_sha256": "772611741a7d8fd3bce27ff9bcec43c63328c900156e20e30cc613a3382ecd97",
+  "cpu_affinity": [
+    43
+  ],
+  "husp_count": 19,
+  "input": "/work/prepared/baselines/TAFENG.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 61952,
+  "min_utility_scaled": 1064536631,
+  "patterns_file": "/work/results/baselines/husspan/tafeng_fixed_L3/T3_patterns.txt",
+  "patterns_lines": 19,
+  "python": "3.11.5",
+  "runtime_sec": 9.707909279037267
+}

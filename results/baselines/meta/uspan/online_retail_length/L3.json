@@ -1,0 +1,22 @@
+{
+  "algorithm": "uspan",
+  "case": "L3",
+  "cpu": 41,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 1200.135,
+  "exit_code": -15,
+  "finished": "2026-10-09T10:48:02+00:00",
+  "group": "online_retail_length",
+  "input": "/work/prepared/baselines/ONLINE_RETAIL.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/uspan/online_retail_length/L3.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 92954983,
+  "observed_peak_rss_kb": 254100,
+  "scale": 100,
+  "source": "/work/prepared/paper_original/OnlineRetail.txt",
+  "source_sha256": "7f94a56b3a516e08f4503d857c8e48d7f3cb6db336555f5865ae6f19f840d1ac",
+  "stats_path": "/work/results/baselines/uspan/online_retail_length/L3_stats.json",
+  "status": "timeout"
+}

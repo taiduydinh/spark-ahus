@@ -1,0 +1,9 @@
+Experiment: sign_pilot_L3 T5
+Data source: /work/prepared/direct_utility/SIGN.txt
+Dataset integrity note: Paper reports 800 sequences, 310 distinct items; current file has 730 and 267. Published pruning/memory plots do not explicitly state the maximum pattern length.
+Pattern length: 3
+Command: spark-submit --master 'local[4]' --driver-memory 8g /work/spark_ahus.py --input /work/prepared/direct_utility/SIGN.txt --value-mode utility --partitions 4 --stats-json /work/results/SIGN/sign_15000_stats.json --min-utility 15000 --max-pattern-length 3 --count-only
+Finished: exit code 0 wall time 228.54 s
+Log: /work/logs/SIGN_15000.log
+Run metadata: /work/logs/SIGN_15000.meta.json
+Spark stats: /work/results/SIGN/sign_15000_stats.json

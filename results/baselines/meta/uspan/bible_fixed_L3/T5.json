@@ -1,0 +1,22 @@
+{
+  "algorithm": "uspan",
+  "case": "T5",
+  "cpu": 42,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 1200.218,
+  "exit_code": -15,
+  "finished": "2026-10-09T10:07:52+00:00",
+  "group": "bible_fixed_L3",
+  "input": "/work/prepared/baselines/BIBLE.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/uspan/bible_fixed_L3/T5.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 250005,
+  "observed_peak_rss_kb": 596164,
+  "scale": 1,
+  "source": "/work/prepared/direct_utility/Bible.txt",
+  "source_sha256": "ae99159d8b9a239a6520f842bfb661bcaf7c053b37513516a2ec1ad7f6eb8ef1",
+  "stats_path": "/work/results/baselines/uspan/bible_fixed_L3/T5_stats.json",
+  "status": "timeout"
+}

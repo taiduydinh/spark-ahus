@@ -1,0 +1,9 @@
+Experiment: tafeng_fixed_L3 T1
+Data source: /work/prepared/paper_original/Tafeng.txt
+Dataset integrity note: Original measured-utility data not yet prepared.
+Pattern length: 3
+Command: spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/paper_original/Tafeng.txt --value-mode utility --partitions 12 --stats-json /work/results/paper_protocol/tafeng_fixed_L3/T1_stats.json --min-utility-ratio 0.06045621 --max-pattern-length 3 --count-only
+Finished: exit code 0 wall time 12.14 s
+Log: /work/logs/paper_protocol/tafeng_fixed_L3/T1.log
+Run metadata: /work/logs/paper_protocol/tafeng_fixed_L3/T1.meta.json
+Spark stats: /work/results/paper_protocol/tafeng_fixed_L3/T1_stats.json

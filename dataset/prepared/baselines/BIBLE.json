@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/BIBLE_external.txt",
+  "external_sha256": "c518ddfe519796f481010bd9b9ffac02919612c7238b45ccc6fd2d3dcc716ab8",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 13905,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 1,
+  "sequences": 36369,
+  "source_identity": {
+    "bytes": 8983821,
+    "sha256": "ae99159d8b9a239a6520f842bfb661bcaf7c053b37513516a2ec1ad7f6eb8ef1",
+    "source": "/work/prepared/direct_utility/Bible.txt"
+  },
+  "target": "/work/prepared/baselines/BIBLE.txt",
+  "target_sha256": "b0131301c9f8dafa84eb13d7cbb12f98bc0f6ef2f9c8d096431f643537fe83f5",
+  "total_utility_original": "12817639",
+  "total_utility_scaled": 12817639
+}

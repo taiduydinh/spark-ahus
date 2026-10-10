@@ -1,0 +1,42 @@
+{
+  "BMS-WebView-1": {
+    "dataset": "BMS-WebView-1",
+    "sequence_count": 59601,
+    "distinct_items": 497,
+    "occurrences": 149638,
+    "itemset_count": 149638,
+    "avg_itemsets_per_sequence": 2.51066,
+    "items_per_itemset": 1.0,
+    "total_utility": 2477599,
+    "declared_sequence_utility_mismatches": 0,
+    "source_original_name": ".bms1.txt",
+    "external_original_name": ".bms1_ExternalUtility.txt",
+    "raw_sequence_sha256": "3ff14da6ea24097b487f26638223b71987992e87651466e81052dfbf74150b75",
+    "raw_external_sha256": "4af12a722ea5beffcdb5a316cd6ae568387dde2a7b1bc274276a6c17f5d67264",
+    "direct_utility_sha256": "755b62270517a5cababcecc36bd1f1ea3add7c8fed52708c356f46060368e11e",
+    "paper_sequence_count": 59601,
+    "paper_distinct_items": 497,
+    "paper_avg_itemsets_per_sequence": 2.51,
+    "conversion": "item[quantity] -> item[quantity * external_utility]; same sequence order/itemset boundaries/SUtility"
+  },
+  "BMS-WebView-2": {
+    "dataset": "BMS-WebView-2",
+    "sequence_count": 77512,
+    "distinct_items": 3340,
+    "occurrences": 358278,
+    "itemset_count": 358278,
+    "avg_itemsets_per_sequence": 4.62223,
+    "items_per_itemset": 1.0,
+    "total_utility": 9129223,
+    "declared_sequence_utility_mismatches": 0,
+    "source_original_name": "5_bms2.txt",
+    "external_original_name": "5_bms2_ExternalUtility.txt",
+    "raw_sequence_sha256": "6c3935b7eca9501ad1fa4d739103e1e700eed60442489fcd7a16e22f2ae884a9",
+    "raw_external_sha256": "e25742ddc55f30c63b3475abfbc2fb893ec5f735a9ac2df4c867a55035c7691b",
+    "direct_utility_sha256": "05b3b326e13dce403c3136ad5a0af4dac10c77e181d31da992c48d7512f1aa2d",
+    "paper_sequence_count": 77512,
+    "paper_distinct_items": 3340,
+    "paper_avg_itemsets_per_sequence": 4.62,
+    "conversion": "item[quantity] -> item[quantity * external_utility]; same sequence order/itemset boundaries/SUtility"
+  }
+}

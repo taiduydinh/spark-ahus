@@ -1,0 +1,20 @@
+{
+  "comparison": "Exact pattern match: 1110 patterns; utilities agree within 0.0001",
+  "cores": 12,
+  "dataset_sha256": "05b3b326e13dce403c3136ad5a0af4dac10c77e181d31da992c48d7512f1aa2d",
+  "exit_code": 0,
+  "key": "bms2_unrestricted/T5",
+  "kind": "paper",
+  "log": "/work/logs/optimized_full_suite/bms2_unrestricted__T5.log",
+  "max_pattern_length": 0,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/bms2_unrestricted__T5_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/bms2_unrestricted__T5_stats.json",
+  "status": "complete",
+  "threshold": "0.003286151",
+  "threshold_type": "min-utility-ratio",
+  "timestamp": "2026-10-09T16:24:04+00:00",
+  "wall_sec": 161.5517
+}

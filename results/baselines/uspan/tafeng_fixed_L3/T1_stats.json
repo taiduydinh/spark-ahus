@@ -1,0 +1,17 @@
+{
+  "algorithm": "uspan",
+  "code_sha256": "81bab129f06f42cd867d5dc3970d4a513fc72a3654adfc3f138e1227d150ef33",
+  "cpu_affinity": [
+    42
+  ],
+  "husp_count": 19,
+  "input": "/work/prepared/baselines/TAFENG.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 138340,
+  "min_utility_scaled": 1064546492,
+  "patterns_file": "/work/results/baselines/uspan/tafeng_fixed_L3/T1_patterns.txt",
+  "patterns_lines": 19,
+  "python": "3.11.5",
+  "runtime_sec": 81.28690827498212
+}

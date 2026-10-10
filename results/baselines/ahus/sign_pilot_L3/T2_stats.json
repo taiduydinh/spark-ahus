@@ -1,0 +1,17 @@
+{
+  "algorithm": "ahus",
+  "code_sha256": "d5ebc04e72413cab1b1c61b6a6d23489296bee005b1d3ca20fdcedc401e3a923",
+  "cpu_affinity": [
+    41
+  ],
+  "husp_count": 8,
+  "input": "/work/prepared/baselines/SIGN.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 70540,
+  "min_utility_scaled": 30000,
+  "patterns_file": "/work/results/baselines/ahus/sign_pilot_L3/T2_patterns.txt",
+  "patterns_lines": 8,
+  "python": "3.11.5",
+  "runtime_sec": 191.12269617896527
+}

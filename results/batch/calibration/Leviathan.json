@@ -1,0 +1,12 @@
+{
+  "computed_at": "2026-10-08T14:00:56+00:00",
+  "identity": {
+    "mtime_ns": 1791424149805859577,
+    "path": "/work/prepared/direct_utility/Leviathan.txt",
+    "size": 2048211
+  },
+  "method": "per-sequence maximum occurrence utility, summed across sequences",
+  "sequences": 5834,
+  "top_singleton_item": 8,
+  "top_singleton_utility": 45296.0
+}

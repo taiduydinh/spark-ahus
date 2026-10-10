@@ -1,0 +1,22 @@
+{
+  "algorithm": "uspan",
+  "case": "T1",
+  "cpu": 45,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 414.452,
+  "exit_code": 0,
+  "finished": "2026-10-08T15:46:47+00:00",
+  "group": "bms2_unrestricted",
+  "input": "/work/prepared/baselines/BMS2.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/uspan/bms2_unrestricted/T1.log",
+  "max_pattern_length": 0,
+  "min_utility_scaled": 70000,
+  "observed_peak_rss_kb": 255604,
+  "scale": 1,
+  "source": "/work/prepared/paper_original/BMS-WebView-2.txt",
+  "source_sha256": "05b3b326e13dce403c3136ad5a0af4dac10c77e181d31da992c48d7512f1aa2d",
+  "stats_path": "/work/results/baselines/uspan/bms2_unrestricted/T1_stats.json",
+  "status": "complete"
+}

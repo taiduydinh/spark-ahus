@@ -1,0 +1,5 @@
+# Compatibility requirements (not an exact lockfile for the original Docker image)
+pyspark==3.5.3
+numpy>=1.24,<3
+# Optional process-tree telemetry
+psutil>=5.9

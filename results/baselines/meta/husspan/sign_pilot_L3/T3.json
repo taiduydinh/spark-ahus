@@ -1,0 +1,22 @@
+{
+  "algorithm": "husspan",
+  "case": "T3",
+  "cpu": 43,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 620.402,
+  "exit_code": 0,
+  "finished": "2026-10-08T16:05:53+00:00",
+  "group": "sign_pilot_L3",
+  "input": "/work/prepared/baselines/SIGN.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/husspan/sign_pilot_L3/T3.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 25000,
+  "observed_peak_rss_kb": 65188,
+  "scale": 1,
+  "source": "/work/prepared/direct_utility/SIGN.txt",
+  "source_sha256": "dd6ef8ef5c2dcf835cec7f099d7117b883bd1868fdf1b6d183acc4ba957d7789",
+  "stats_path": "/work/results/baselines/husspan/sign_pilot_L3/T3_stats.json",
+  "status": "complete"
+}

@@ -1,0 +1,20 @@
+{
+  "comparison": "Exact pattern match: 19 patterns; utilities agree within 0.0001",
+  "cores": 12,
+  "dataset_sha256": "48b2cdc7dd0b389ca8b8e494bccfad5f5ba366c24197b4f44d423b6e036e057d",
+  "exit_code": 0,
+  "key": "tafeng_fixed_L3/T2",
+  "kind": "paper",
+  "log": "/work/logs/optimized_full_suite/tafeng_fixed_L3__T2.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/tafeng_fixed_L3__T2_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/tafeng_fixed_L3__T2_stats.json",
+  "status": "complete",
+  "threshold": "0.06045593",
+  "threshold_type": "min-utility-ratio",
+  "timestamp": "2026-10-09T19:27:15+00:00",
+  "wall_sec": 10.4427
+}

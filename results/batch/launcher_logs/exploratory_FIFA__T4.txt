@@ -1,0 +1,2 @@
+Command: taskset -c 0,1,9,10,11,12,13,14,15,16,2,17 spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/direct_utility/FIFA.txt --value-mode utility --min-utility 3935211 --max-pattern-length 3 --partitions 12 --count-only --stats-json /work/results/exploratory/FIFA/T4_stats.json
+Exit status: 0

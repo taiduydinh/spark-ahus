@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "c7a17574b631ef27450bde0d051f2f7bdc68354883d6eafa2e303bf6b8087a8f",
+  "exit_code": 143,
+  "key": "foodmart_unrestricted/T1",
+  "kind": "paper",
+  "log": "/work/logs/optimized_full_suite/foodmart_unrestricted__T1.log",
+  "max_pattern_length": 0,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/foodmart_unrestricted__T1_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/foodmart_unrestricted__T1_stats.json",
+  "status": "timeout",
+  "threshold": "0.001271492",
+  "threshold_type": "min-utility-ratio",
+  "timestamp": "2026-10-09T17:24:05+00:00",
+  "wall_sec": 3600.2673
+}

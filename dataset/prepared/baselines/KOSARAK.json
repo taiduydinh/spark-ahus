@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/KOSARAK_external.txt",
+  "external_sha256": "46cf91d6f050123b148f3dd34d247557a9b05a0862a74f09f08e974de1a59a51",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 41270,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 1,
+  "sequences": 990002,
+  "source_identity": {
+    "bytes": 102462264,
+    "sha256": "d0cfe8d6bb3938bae6f72e670ea61a9c51da29300c16d79f2dcd286625dbc0cb",
+    "source": "/work/prepared/direct_utility/KOSARAK_full.txt"
+  },
+  "target": "/work/prepared/baselines/KOSARAK.txt",
+  "target_sha256": "d0cfe8d6bb3938bae6f72e670ea61a9c51da29300c16d79f2dcd286625dbc0cb",
+  "total_utility_original": "385921994",
+  "total_utility_scaled": 385921994
+}

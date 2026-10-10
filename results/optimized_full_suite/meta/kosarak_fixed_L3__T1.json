@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "d0cfe8d6bb3938bae6f72e670ea61a9c51da29300c16d79f2dcd286625dbc0cb",
+  "exit_code": 143,
+  "key": "kosarak_fixed_L3/T1",
+  "kind": "paper",
+  "log": "/work/logs/optimized_full_suite/kosarak_fixed_L3__T1.log",
+  "max_pattern_length": 3,
+  "mode": "plain-fallback-large-dataset",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/kosarak_fixed_L3__T1_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/kosarak_fixed_L3__T1_stats.json",
+  "status": "timeout",
+  "threshold": "0.002730303",
+  "threshold_type": "min-utility-ratio",
+  "timestamp": "2026-10-09T20:27:47+00:00",
+  "wall_sec": 3600.2164
+}

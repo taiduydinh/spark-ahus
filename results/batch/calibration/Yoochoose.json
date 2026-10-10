@@ -1,0 +1,12 @@
+{
+  "computed_at": "2026-10-08T14:00:57+00:00",
+  "identity": {
+    "mtime_ns": 1791424151741713889,
+    "path": "/work/prepared/direct_utility/Yoochoose.txt",
+    "size": 11794372
+  },
+  "method": "per-sequence maximum occurrence utility, summed across sequences",
+  "sequences": 234300,
+  "top_singleton_item": 853072,
+  "top_singleton_utility": 21944100.0
+}

@@ -1,0 +1,20 @@
+{
+  "comparison": "Exact pattern match: 395 patterns; utilities agree within 0.0001",
+  "cores": 4,
+  "dataset_sha256": "dd6ef8ef5c2dcf835cec7f099d7117b883bd1868fdf1b6d183acc4ba957d7789",
+  "exit_code": 0,
+  "key": "sign_pilot_L3/T5",
+  "kind": "pilot",
+  "log": "/work/logs/optimized_full_suite/sign_pilot_L3__T5.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 4,
+  "patterns": "/work/results/optimized_full_suite/sign_pilot_L3__T5_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/sign_pilot_L3__T5_stats.json",
+  "status": "complete",
+  "threshold": "15000",
+  "threshold_type": "min-utility",
+  "timestamp": "2026-10-09T16:18:29+00:00",
+  "wall_sec": 197.3192
+}

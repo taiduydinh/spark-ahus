@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/BMS1_external.txt",
+  "external_sha256": "f6b7454306dc429999de5f373660e101a8127bfd83d991099ba049b551655166",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 497,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 1,
+  "sequences": 59601,
+  "source_identity": {
+    "bytes": 2768030,
+    "sha256": "755b62270517a5cababcecc36bd1f1ea3add7c8fed52708c356f46060368e11e",
+    "source": "/work/prepared/paper_original/BMS-WebView-1.txt"
+  },
+  "target": "/work/prepared/baselines/BMS1.txt",
+  "target_sha256": "755b62270517a5cababcecc36bd1f1ea3add7c8fed52708c356f46060368e11e",
+  "total_utility_original": "2477599",
+  "total_utility_scaled": 2477599
+}

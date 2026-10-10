@@ -1,0 +1,9 @@
+Experiment: bible_fixed_L3 T4
+Data source: /work/prepared/direct_utility/Bible.txt
+Dataset integrity note: Paper and current have same sequence count and item domain but the occurrence utilities are not verified identical.
+Pattern length: 3
+Command: spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/direct_utility/Bible.txt --value-mode utility --partitions 12 --stats-json /work/results/paper_protocol/bible_fixed_L3/T4_stats.json --min-utility-ratio 0.02340567 --max-pattern-length 3 --count-only
+Finished: exit code 0 wall time 38.49 s
+Log: /work/logs/paper_protocol/bible_fixed_L3/T4.log
+Run metadata: /work/logs/paper_protocol/bible_fixed_L3/T4.meta.json
+Spark stats: /work/results/paper_protocol/bible_fixed_L3/T4_stats.json

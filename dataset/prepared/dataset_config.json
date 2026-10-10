@@ -1,0 +1,62 @@
+{
+  "suite": "Spark-AHUS IEEE eight-dataset benchmark",
+  "all_prepared_files_use": "--value-mode utility",
+  "datasets": [
+    {
+      "name": "SIGN",
+      "path": "direct_utility/SIGN.txt",
+      "sequences": 730,
+      "total_utility": 634332.0,
+      "sha256": "dd6ef8ef5c2dcf835cec7f099d7117b883bd1868fdf1b6d183acc4ba957d7789"
+    },
+    {
+      "name": "Leviathan",
+      "path": "direct_utility/Leviathan.txt",
+      "sequences": 5834,
+      "total_utility": 1199198.0,
+      "sha256": "60a866bf8c4442d480847556a95a3b05ff6164e4f15c69b80ca0a6e95f93d64f"
+    },
+    {
+      "name": "Kosarak10K",
+      "path": "direct_utility/Kosarak10K.txt",
+      "sequences": 10000,
+      "total_utility": 1396290.0,
+      "sha256": "b4614c97fd916eb8c7002fb55ac49295fea888e110b17bc5a1956fc60f4fa175"
+    },
+    {
+      "name": "Bible",
+      "path": "direct_utility/Bible.txt",
+      "sequences": 36369,
+      "total_utility": 12817639.0,
+      "sha256": "ae99159d8b9a239a6520f842bfb661bcaf7c053b37513516a2ec1ad7f6eb8ef1"
+    },
+    {
+      "name": "Yoochoose",
+      "path": "direct_utility/Yoochoose.txt",
+      "sequences": 234300,
+      "total_utility": 1929487461.0,
+      "sha256": "4ff6681dbbecc0077aa218ecc75d7b1af4d76cf9681a23ec2606ecd640211cf7"
+    },
+    {
+      "name": "FIFA",
+      "path": "direct_utility/FIFA.txt",
+      "sequences": 20450,
+      "total_utility": 42781841.0,
+      "sha256": "3400151cb21213cb18c62ebf1529ee6839980c4d819eb3ade8cd76789a120bf5"
+    },
+    {
+      "name": "C8T1S5I8N5K",
+      "path": "direct_utility/C8T1S5I8N5K.txt",
+      "sequences": 47132,
+      "total_utility": 47416411.0,
+      "sha256": "f333708adeb108f3aabf3948cda50b7a32d24eed5cf2ce3f9a5af2cabdd1078b"
+    },
+    {
+      "name": "KOSARAK-full",
+      "path": "direct_utility/KOSARAK_full.txt",
+      "sequences": 990002,
+      "total_utility": 385921994.0,
+      "sha256": "d0cfe8d6bb3938bae6f72e670ea61a9c51da29300c16d79f2dcd286625dbc0cb"
+    }
+  ]
+}

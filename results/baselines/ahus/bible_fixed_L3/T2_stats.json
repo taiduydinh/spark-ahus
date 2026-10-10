@@ -1,0 +1,17 @@
+{
+  "algorithm": "ahus",
+  "code_sha256": "d5ebc04e72413cab1b1c61b6a6d23489296bee005b1d3ca20fdcedc401e3a923",
+  "cpu_affinity": [
+    45
+  ],
+  "husp_count": 3,
+  "input": "/work/prepared/baselines/BIBLE.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 621284,
+  "min_utility_scaled": 400008,
+  "patterns_file": "/work/results/baselines/ahus/bible_fixed_L3/T2_patterns.txt",
+  "patterns_lines": 3,
+  "python": "3.11.5",
+  "runtime_sec": 163.8818995980546
+}

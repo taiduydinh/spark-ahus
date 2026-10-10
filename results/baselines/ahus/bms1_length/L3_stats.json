@@ -1,0 +1,17 @@
+{
+  "algorithm": "ahus",
+  "code_sha256": "d5ebc04e72413cab1b1c61b6a6d23489296bee005b1d3ca20fdcedc401e3a923",
+  "cpu_affinity": [
+    46
+  ],
+  "husp_count": 5,
+  "input": "/work/prepared/baselines/BMS1.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 146208,
+  "min_utility_scaled": 44994,
+  "patterns_file": "/work/results/baselines/ahus/bms1_length/L3_patterns.txt",
+  "patterns_lines": 5,
+  "python": "3.11.5",
+  "runtime_sec": 125.95509931305423
+}

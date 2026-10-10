@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 38,
+  "external": "/work/prepared/baselines/FOODMART_external.txt",
+  "external_sha256": "2160399814128db100359f2d2e934783584c181a980fa0cf76cbbe6b38ff57a2",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 1559,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 100,
+  "sequences": 8842,
+  "source_identity": {
+    "bytes": 3141136,
+    "sha256": "c7a17574b631ef27450bde0d051f2f7bdc68354883d6eafa2e303bf6b8087a8f",
+    "source": "/work/prepared/paper_original/Foodmart.txt"
+  },
+  "target": "/work/prepared/baselines/FOODMART.txt",
+  "target_sha256": "8e2029f912d43d9ffeae66fdddeeb06bd8bfe6e942b001a797b7f825f664bbd1",
+  "total_utility_original": "2186349.20",
+  "total_utility_scaled": 218634920
+}

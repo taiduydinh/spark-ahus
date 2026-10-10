@@ -1,0 +1,231 @@
+{
+  "algorithm": "Spark-AHUS",
+  "input": "/work/prepared/paper_original/BMS-WebView-2.txt",
+  "value_mode": "utility",
+  "sequence_count": 77512,
+  "total_utility": 9129223.0,
+  "min_utility": 69999.997129532,
+  "threshold_ratio": 0.007667684,
+  "promising_items": 357,
+  "spark_default_parallelism": 12,
+  "database_partitions": 12,
+  "materialized_blocks": 12,
+  "local_candidate_count": 1363,
+  "verified_candidate_count": 1363,
+  "husp_count": 8,
+  "max_pattern_length": 2147483647,
+  "preprocess_swu_sec": 1.7805597190745175,
+  "pack_arrays_sec": 0.9219107989920303,
+  "local_mining_sec": 36.93865377502516,
+  "global_verification_sec": 2.2880418869899586,
+  "runtime_sec": 41.9350599530153,
+  "driver_process_tree_peak_mb": 55.1015625,
+  "partition_stats": [
+    {
+      "partition_id": 0,
+      "total_utility": 744181.0,
+      "sequence_count": 7250,
+      "active_sequence_count": 5037,
+      "occurrences": 14161
+    },
+    {
+      "partition_id": 1,
+      "total_utility": 751293.0,
+      "sequence_count": 7069,
+      "active_sequence_count": 5068,
+      "occurrences": 14150
+    },
+    {
+      "partition_id": 2,
+      "total_utility": 772964.0,
+      "sequence_count": 6186,
+      "active_sequence_count": 4537,
+      "occurrences": 16008
+    },
+    {
+      "partition_id": 3,
+      "total_utility": 781344.0,
+      "sequence_count": 5925,
+      "active_sequence_count": 4476,
+      "occurrences": 16605
+    },
+    {
+      "partition_id": 4,
+      "total_utility": 766758.0,
+      "sequence_count": 6347,
+      "active_sequence_count": 4730,
+      "occurrences": 16882
+    },
+    {
+      "partition_id": 5,
+      "total_utility": 762978.0,
+      "sequence_count": 6395,
+      "active_sequence_count": 4875,
+      "occurrences": 16414
+    },
+    {
+      "partition_id": 6,
+      "total_utility": 766459.0,
+      "sequence_count": 6341,
+      "active_sequence_count": 4947,
+      "occurrences": 16358
+    },
+    {
+      "partition_id": 7,
+      "total_utility": 770825.0,
+      "sequence_count": 6460,
+      "active_sequence_count": 4730,
+      "occurrences": 15676
+    },
+    {
+      "partition_id": 8,
+      "total_utility": 735955.0,
+      "sequence_count": 6579,
+      "active_sequence_count": 5166,
+      "occurrences": 16143
+    },
+    {
+      "partition_id": 9,
+      "total_utility": 751723.0,
+      "sequence_count": 6253,
+      "active_sequence_count": 4658,
+      "occurrences": 15568
+    },
+    {
+      "partition_id": 10,
+      "total_utility": 754367.0,
+      "sequence_count": 6758,
+      "active_sequence_count": 4979,
+      "occurrences": 14759
+    },
+    {
+      "partition_id": 11,
+      "total_utility": 770376.0,
+      "sequence_count": 5949,
+      "active_sequence_count": 4272,
+      "occurrences": 15099
+    }
+  ],
+  "local_mining_stats": [
+    {
+      "partition_id": 0,
+      "local_min_utility": 5706.1447468040005,
+      "local_patterns": 13,
+      "expanded_prefixes": 363,
+      "generated_extensions": 34027,
+      "materialized_extensions": 335,
+      "occurrences": 14161,
+      "active_sequences": 5037
+    },
+    {
+      "partition_id": 1,
+      "local_min_utility": 5760.677315412,
+      "local_patterns": 8,
+      "expanded_prefixes": 347,
+      "generated_extensions": 30136,
+      "materialized_extensions": 314,
+      "occurrences": 14150,
+      "active_sequences": 5068
+    },
+    {
+      "partition_id": 2,
+      "local_min_utility": 5926.843695376,
+      "local_patterns": 698,
+      "expanded_prefixes": 29623,
+      "generated_extensions": 2979356,
+      "materialized_extensions": 32940,
+      "occurrences": 16008,
+      "active_sequences": 4537
+    },
+    {
+      "partition_id": 3,
+      "local_min_utility": 5991.098887296,
+      "local_patterns": 439,
+      "expanded_prefixes": 20571,
+      "generated_extensions": 1516961,
+      "materialized_extensions": 22111,
+      "occurrences": 16605,
+      "active_sequences": 4476
+    },
+    {
+      "partition_id": 4,
+      "local_min_utility": 5879.258048472,
+      "local_patterns": 238,
+      "expanded_prefixes": 32080,
+      "generated_extensions": 2926477,
+      "materialized_extensions": 33481,
+      "occurrences": 16882,
+      "active_sequences": 4730
+    },
+    {
+      "partition_id": 5,
+      "local_min_utility": 5850.274202952,
+      "local_patterns": 670,
+      "expanded_prefixes": 12255,
+      "generated_extensions": 951235,
+      "materialized_extensions": 14338,
+      "occurrences": 16414,
+      "active_sequences": 4875
+    },
+    {
+      "partition_id": 6,
+      "local_min_utility": 5876.965410956,
+      "local_patterns": 43,
+      "expanded_prefixes": 5635,
+      "generated_extensions": 664793,
+      "materialized_extensions": 5673,
+      "occurrences": 16358,
+      "active_sequences": 4947
+    },
+    {
+      "partition_id": 7,
+      "local_min_utility": 5910.4425193,
+      "local_patterns": 19,
+      "expanded_prefixes": 1397,
+      "generated_extensions": 109334,
+      "materialized_extensions": 1378,
+      "occurrences": 15676,
+      "active_sequences": 4730
+    },
+    {
+      "partition_id": 8,
+      "local_min_utility": 5643.07037822,
+      "local_patterns": 57,
+      "expanded_prefixes": 1407,
+      "generated_extensions": 113770,
+      "materialized_extensions": 1365,
+      "occurrences": 16143,
+      "active_sequences": 5166
+    },
+    {
+      "partition_id": 9,
+      "local_min_utility": 5763.974419532,
+      "local_patterns": 65,
+      "expanded_prefixes": 2684,
+      "generated_extensions": 191105,
+      "materialized_extensions": 2722,
+      "occurrences": 15568,
+      "active_sequences": 4658
+    },
+    {
+      "partition_id": 10,
+      "local_min_utility": 5784.247776028,
+      "local_patterns": 12,
+      "expanded_prefixes": 1136,
+      "generated_extensions": 93312,
+      "materialized_extensions": 1124,
+      "occurrences": 14759,
+      "active_sequences": 4979
+    },
+    {
+      "partition_id": 11,
+      "local_min_utility": 5906.999729184,
+      "local_patterns": 39,
+      "expanded_prefixes": 3594,
+      "generated_extensions": 240043,
+      "materialized_extensions": 3705,
+      "occurrences": 15099,
+      "active_sequences": 4272
+    }
+  ]
+}

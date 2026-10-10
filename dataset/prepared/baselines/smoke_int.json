@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/smoke_int_external.txt",
+  "external_sha256": "31d8f87b3d39f8d376e8017432826f1ec1a6071feb38f58b82057ab6cf604ccb",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 2,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 1,
+  "sequences": 3,
+  "source_identity": {
+    "bytes": 87,
+    "sha256": "3472c27ff7b542de0a4b17d4fbbee5baf2a41357cb724f8edd75422a970e4de1",
+    "source": "/work/prepared/baselines/smoke_raw.txt"
+  },
+  "target": "/work/prepared/baselines/smoke_int.txt",
+  "target_sha256": "3472c27ff7b542de0a4b17d4fbbee5baf2a41357cb724f8edd75422a970e4de1",
+  "total_utility_original": "11",
+  "total_utility_scaled": 11
+}

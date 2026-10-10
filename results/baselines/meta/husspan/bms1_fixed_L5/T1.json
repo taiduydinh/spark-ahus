@@ -1,0 +1,22 @@
+{
+  "algorithm": "husspan",
+  "case": "T1",
+  "cpu": 43,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 1200.031,
+  "exit_code": -15,
+  "finished": "2026-10-08T16:55:00+00:00",
+  "group": "bms1_fixed_L5",
+  "input": "/work/prepared/baselines/BMS1.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/husspan/bms1_fixed_L5/T1.log",
+  "max_pattern_length": 5,
+  "min_utility_scaled": 50001,
+  "observed_peak_rss_kb": 106312,
+  "scale": 1,
+  "source": "/work/prepared/paper_original/BMS-WebView-1.txt",
+  "source_sha256": "755b62270517a5cababcecc36bd1f1ea3add7c8fed52708c356f46060368e11e",
+  "stats_path": "/work/results/baselines/husspan/bms1_fixed_L5/T1_stats.json",
+  "status": "timeout"
+}

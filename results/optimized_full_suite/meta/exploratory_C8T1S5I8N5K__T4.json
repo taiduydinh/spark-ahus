@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "f333708adeb108f3aabf3948cda50b7a32d24eed5cf2ce3f9a5af2cabdd1078b",
+  "exit_code": 0,
+  "key": "exploratory_C8T1S5I8N5K/T4",
+  "kind": "exploratory",
+  "log": "/work/logs/optimized_full_suite/exploratory_C8T1S5I8N5K__T4.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/exploratory_C8T1S5I8N5K__T4_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/exploratory_C8T1S5I8N5K__T4_stats.json",
+  "status": "complete",
+  "threshold": "424368",
+  "threshold_type": "min-utility",
+  "timestamp": "2026-10-09T23:48:59+00:00",
+  "wall_sec": 9.4393
+}

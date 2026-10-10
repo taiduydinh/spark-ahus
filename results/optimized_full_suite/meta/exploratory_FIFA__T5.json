@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "3400151cb21213cb18c62ebf1529ee6839980c4d819eb3ade8cd76789a120bf5",
+  "exit_code": 0,
+  "key": "exploratory_FIFA/T5",
+  "kind": "exploratory",
+  "log": "/work/logs/optimized_full_suite/exploratory_FIFA__T5.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/exploratory_FIFA__T5_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/exploratory_FIFA__T5_stats.json",
+  "status": "complete",
+  "threshold": "2623474",
+  "threshold_type": "min-utility",
+  "timestamp": "2026-10-09T23:48:20+00:00",
+  "wall_sec": 294.3644
+}

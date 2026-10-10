@@ -1,0 +1,12 @@
+{
+  "computed_at": "2026-10-08T14:00:59+00:00",
+  "identity": {
+    "mtime_ns": 1791425098532333713,
+    "path": "/work/prepared/direct_utility/C8T1S5I8N5K.txt",
+    "size": 11489776
+  },
+  "method": "per-sequence maximum occurrence utility, summed across sequences",
+  "sequences": 47132,
+  "top_singleton_item": 4999999,
+  "top_singleton_utility": 282912.0
+}

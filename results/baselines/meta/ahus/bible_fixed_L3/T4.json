@@ -1,0 +1,22 @@
+{
+  "algorithm": "ahus",
+  "case": "T4",
+  "cpu": 45,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 218.731,
+  "exit_code": 0,
+  "finished": "2026-10-08T16:47:24+00:00",
+  "group": "bible_fixed_L3",
+  "input": "/work/prepared/baselines/BIBLE.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/ahus/bible_fixed_L3/T4.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 300006,
+  "observed_peak_rss_kb": 652236,
+  "scale": 1,
+  "source": "/work/prepared/direct_utility/Bible.txt",
+  "source_sha256": "ae99159d8b9a239a6520f842bfb661bcaf7c053b37513516a2ec1ad7f6eb8ef1",
+  "stats_path": "/work/results/baselines/ahus/bible_fixed_L3/T4_stats.json",
+  "status": "complete"
+}

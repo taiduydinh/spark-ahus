@@ -1,0 +1,10 @@
+Experiment: online_retail_fixed_L5 T1
+Data source: /work/prepared/paper_original/OnlineRetail.txt
+Dataset integrity note: Paper OnlineRetail is NOT the same as current ONLINE_RETAIL_II_ALL; do not automatically equate.
+Pattern length: 5
+Command: spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/paper_original/OnlineRetail.txt --value-mode utility --partitions 12 --stats-json /work/results/paper_protocol/online_retail_fixed_L5/T1_stats.json --min-utility-ratio 0.08334291 --max-pattern-length 5 --count-only
+Finished: exit code 124 wall time 3600.15 s
+Log: /work/logs/paper_protocol/online_retail_fixed_L5/T1.log
+Run metadata: /work/logs/paper_protocol/online_retail_fixed_L5/T1.meta.json
+Spark stats: not produced
+Timed out. Do not run a more difficult threshold automatically.

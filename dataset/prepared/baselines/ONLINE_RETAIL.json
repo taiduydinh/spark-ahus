@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/ONLINE_RETAIL_external.txt",
+  "external_sha256": "092f508ea342118a807a93787c3c8db4a02b4f62cc12dbdc4c75fa691dc41740",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 3659,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 100,
+  "sequences": 4335,
+  "source_identity": {
+    "bytes": 5673370,
+    "sha256": "7f94a56b3a516e08f4503d857c8e48d7f3cb6db336555f5865ae6f19f840d1ac",
+    "source": "/work/prepared/paper_original/OnlineRetail.txt"
+  },
+  "target": "/work/prepared/baselines/ONLINE_RETAIL.txt",
+  "target_sha256": "c022dd3458ac398f3bbdb5ca4a2f3cacf541c0856139dd66254bc4452016bb2f",
+  "total_utility_original": "11159061.56",
+  "total_utility_scaled": 1115906156
+}

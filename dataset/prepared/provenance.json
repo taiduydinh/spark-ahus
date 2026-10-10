@@ -1,0 +1,110 @@
+[
+  {
+    "dataset": "SIGN",
+    "source_repository": "https://github.com/DSI-Lab1/HUSPM",
+    "source_revision": "8b1f5f04c941fc2f7f4a0c14ae143d6bc67ffa4a",
+    "source_file": "datasets/SIGN.txt",
+    "source_integrity": {
+      "git_blob_sha1": "b4363850375a536cc315d2fc962a73ad9f7f13d1"
+    },
+    "prepared_file": "direct_utility/SIGN.txt",
+    "transformation": "none; byte-for-byte copy",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "Leviathan",
+    "source_repository": "https://github.com/DSI-Lab1/HUSPM",
+    "source_revision": "8b1f5f04c941fc2f7f4a0c14ae143d6bc67ffa4a",
+    "source_file": "datasets/Leviathan.txt",
+    "source_integrity": {
+      "git_blob_sha1": "6d68b8c37b7e2cff440a8e97aa656718cb7a5b37"
+    },
+    "prepared_file": "direct_utility/Leviathan.txt",
+    "transformation": "none; byte-for-byte copy",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "Kosarak10K",
+    "source_repository": "https://github.com/DSI-Lab1/HUSPM",
+    "source_revision": "8b1f5f04c941fc2f7f4a0c14ae143d6bc67ffa4a",
+    "source_file": "datasets/Kosarak10k.txt",
+    "source_integrity": {
+      "git_blob_sha1": "a3d93fbebb9da683038692149fe274ad423e5c42"
+    },
+    "prepared_file": "direct_utility/Kosarak10K.txt",
+    "transformation": "none; byte-for-byte copy",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "Bible",
+    "source_repository": "https://github.com/DSI-Lab1/HUSPM",
+    "source_revision": "8b1f5f04c941fc2f7f4a0c14ae143d6bc67ffa4a",
+    "source_file": "datasets/BIBLE.txt",
+    "source_integrity": {
+      "git_blob_sha1": "6010217433079d063477c744170df275d453e0ab"
+    },
+    "prepared_file": "direct_utility/Bible.txt",
+    "transformation": "none; byte-for-byte copy",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "Yoochoose",
+    "source_repository": "https://github.com/DSI-Lab1/HUSPM",
+    "source_revision": "8b1f5f04c941fc2f7f4a0c14ae143d6bc67ffa4a",
+    "source_file": "datasets/Yoochoose.txt",
+    "source_integrity": {
+      "git_blob_sha1": "9e77e42e787960788636c00b22856293dfa452bd"
+    },
+    "prepared_file": "direct_utility/Yoochoose.txt",
+    "transformation": "none; byte-for-byte copy",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "FIFA",
+    "source_repository": "https://github.com/tran-minh-thai/huspm-datasets",
+    "source_revision": "v1.2.1-measured-quantity",
+    "source_files": [
+      "FIFA_seq.txt",
+      "FIFA_eui.txt"
+    ],
+    "source_integrity": {
+      "FIFA_seq.txt": "39abf6507d035466017a3726d1a93b3fcc2ae2783e1a1046634614c9d2dad13a",
+      "FIFA_eui.txt": "a1d1548817fd1c3002712bb23734a92388914aa0cdb769faf517ecf6d102f5a0"
+    },
+    "prepared_file": "direct_utility/FIFA.txt",
+    "transformation": "occurrence utility = quantity * external utility; sequence/itemset order unchanged",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "C8T1S5I8N5K",
+    "source_repository": "https://github.com/tran-minh-thai/huspm-datasets",
+    "source_revision": "v1.2.1-measured-quantity",
+    "source_files": [
+      "C8T1S5I8N5K_seq.txt",
+      "C8T1S5I8N5K_eui.txt"
+    ],
+    "source_integrity": {
+      "C8T1S5I8N5K_seq.txt": "37f8dd5ab5c00d191c8bb54eccab34367d8811c1306ac63d9ce9fe302f7063d9",
+      "C8T1S5I8N5K_eui.txt": "81c960709e7663d44bf2e0c79afecd76c6409b045415a0f82443b2ee8f46b5b6"
+    },
+    "prepared_file": "direct_utility/C8T1S5I8N5K.txt",
+    "transformation": "occurrence utility = quantity * external utility; sequence/itemset order unchanged",
+    "spark_ahus_value_mode": "utility"
+  },
+  {
+    "dataset": "KOSARAK-full",
+    "source_repository": "https://github.com/tran-minh-thai/huspm-datasets",
+    "source_revision": "v1.2.1-measured-quantity",
+    "source_files": [
+      "KOSARAK_seq.txt",
+      "KOSARAK_eui.txt"
+    ],
+    "source_integrity": {
+      "KOSARAK_seq.txt": "5694d65a18c347120891d0549a5ab8599dc17826d970b3c95ef00096ef83019e",
+      "KOSARAK_eui.txt": "176c4036de190047cedc669af4a4450231c77f3fdc4004c7077f56f0cd8a0413"
+    },
+    "prepared_file": "direct_utility/KOSARAK_full.txt",
+    "transformation": "occurrence utility = quantity * external utility; sequence/itemset order unchanged",
+    "spark_ahus_value_mode": "utility"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/TAFENG_external.txt",
+  "external_sha256": "d8a875636c4109926a63b2c0e577af277490496e5f3c84d03e95a0fd0442c1f2",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 1,
+  "items": 23811,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 100,
+  "sequences": 32266,
+  "source_identity": {
+    "bytes": 11449591,
+    "sha256": "48b2cdc7dd0b389ca8b8e494bccfad5f5ba366c24197b4f44d423b6e036e057d",
+    "source": "/work/prepared/paper_original/Tafeng.txt"
+  },
+  "target": "/work/prepared/baselines/TAFENG.txt",
+  "target_sha256": "6542489d93fba3276e5617c4f2f2e1cd41f83a0d3338a90deed97fa57871dcd9",
+  "total_utility_original": "176085548.72",
+  "total_utility_scaled": 17608554872
+}

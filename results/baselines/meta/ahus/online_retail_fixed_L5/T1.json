@@ -1,0 +1,22 @@
+{
+  "algorithm": "ahus",
+  "case": "T1",
+  "cpu": 46,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 1200.044,
+  "exit_code": -15,
+  "finished": "2026-10-08T17:05:19+00:00",
+  "group": "online_retail_fixed_L5",
+  "input": "/work/prepared/baselines/ONLINE_RETAIL.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/ahus/online_retail_fixed_L5/T1.log",
+  "max_pattern_length": 5,
+  "min_utility_scaled": 93002867,
+  "observed_peak_rss_kb": 274572,
+  "scale": 100,
+  "source": "/work/prepared/paper_original/OnlineRetail.txt",
+  "source_sha256": "7f94a56b3a516e08f4503d857c8e48d7f3cb6db336555f5865ae6f19f840d1ac",
+  "stats_path": "/work/results/baselines/ahus/online_retail_fixed_L5/T1_stats.json",
+  "status": "timeout"
+}

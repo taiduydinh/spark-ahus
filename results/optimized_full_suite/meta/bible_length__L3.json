@@ -1,0 +1,20 @@
+{
+  "comparison": "Exact pattern match: 2 patterns; utilities agree within 0.0001",
+  "cores": 12,
+  "dataset_sha256": "ae99159d8b9a239a6520f842bfb661bcaf7c053b37513516a2ec1ad7f6eb8ef1",
+  "exit_code": 0,
+  "key": "bible_length/L3",
+  "kind": "paper",
+  "log": "/work/logs/optimized_full_suite/bible_length__L3.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/bible_length__L3_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/bible_length__L3_stats.json",
+  "status": "complete",
+  "threshold": "0.0351",
+  "threshold_type": "min-utility-ratio",
+  "timestamp": "2026-10-09T21:35:00+00:00",
+  "wall_sec": 22.6267
+}

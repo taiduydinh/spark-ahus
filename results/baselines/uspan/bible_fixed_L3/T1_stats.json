@@ -1,0 +1,17 @@
+{
+  "algorithm": "uspan",
+  "code_sha256": "81bab129f06f42cd867d5dc3970d4a513fc72a3654adfc3f138e1227d150ef33",
+  "cpu_affinity": [
+    44
+  ],
+  "husp_count": 2,
+  "input": "/work/prepared/baselines/BIBLE.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 3,
+  "max_rss_kb": 537132,
+  "min_utility_scaled": 450009,
+  "patterns_file": "/work/results/baselines/uspan/bible_fixed_L3/T1_patterns.txt",
+  "patterns_lines": 2,
+  "python": "3.11.5",
+  "runtime_sec": 770.3918570349924
+}

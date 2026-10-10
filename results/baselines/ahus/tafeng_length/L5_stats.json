@@ -1,0 +1,17 @@
+{
+  "algorithm": "ahus",
+  "code_sha256": "d5ebc04e72413cab1b1c61b6a6d23489296bee005b1d3ca20fdcedc401e3a923",
+  "cpu_affinity": [
+    43
+  ],
+  "husp_count": 20,
+  "input": "/work/prepared/baselines/TAFENG.txt",
+  "library_source": "/work/vendor/pypatternminer",
+  "max_pattern_length": 5,
+  "max_rss_kb": 187080,
+  "min_utility_scaled": 1064437143,
+  "patterns_file": "/work/results/baselines/ahus/tafeng_length/L5_patterns.txt",
+  "patterns_lines": 20,
+  "python": "3.11.5",
+  "runtime_sec": 5.696392819983885
+}

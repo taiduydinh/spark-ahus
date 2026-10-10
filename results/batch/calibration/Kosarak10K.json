@@ -1,0 +1,12 @@
+{
+  "computed_at": "2026-10-08T14:00:56+00:00",
+  "identity": {
+    "mtime_ns": 1791424150161832754,
+    "path": "/work/prepared/direct_utility/Kosarak10K.txt",
+    "size": 1007914
+  },
+  "method": "per-sequence maximum occurrence utility, summed across sequences",
+  "sequences": 10000,
+  "top_singleton_item": 6,
+  "top_singleton_utility": 165910.0
+}

@@ -1,0 +1,20 @@
+{
+  "duplicates_coalesced": 0,
+  "external": "/work/prepared/baselines/SIGN_external.txt",
+  "external_sha256": "a493feb84bbb1b937b89c8947cd5f78ab4503cc3a62cb94bba75d2aaba5aba69",
+  "integerization": "exact decimal scaling, same input for all three baselines",
+  "item_id_offset": 0,
+  "items": 267,
+  "normalization_note": "Repeated item IDs within one itemset are coalesced by summing occurrence utilities; Spark must be rerun on normalized input for a fully controlled comparison.",
+  "scale": 1,
+  "sequences": 730,
+  "source_identity": {
+    "bytes": 384593,
+    "sha256": "dd6ef8ef5c2dcf835cec7f099d7117b883bd1868fdf1b6d183acc4ba957d7789",
+    "source": "/work/prepared/direct_utility/SIGN.txt"
+  },
+  "target": "/work/prepared/baselines/SIGN.txt",
+  "target_sha256": "fa6c91ee44b0b0d8159cc1b146d1883a2b688cdacde81ddffada56ed62dedaa1",
+  "total_utility_original": "634332",
+  "total_utility_scaled": 634332
+}

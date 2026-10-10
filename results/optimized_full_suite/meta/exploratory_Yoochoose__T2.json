@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "4ff6681dbbecc0077aa218ecc75d7b1af4d76cf9681a23ec2606ecd640211cf7",
+  "exit_code": 0,
+  "key": "exploratory_Yoochoose/T2",
+  "kind": "exploratory",
+  "log": "/work/logs/optimized_full_suite/exploratory_Yoochoose__T2.log",
+  "max_pattern_length": 3,
+  "mode": "plain-fallback-large-dataset",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/exploratory_Yoochoose__T2_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/exploratory_Yoochoose__T2_stats.json",
+  "status": "complete",
+  "threshold": "65832300",
+  "threshold_type": "min-utility",
+  "timestamp": "2026-10-09T23:38:23+00:00",
+  "wall_sec": 6.3819
+}

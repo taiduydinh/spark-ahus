@@ -1,0 +1,11 @@
+{
+  "duration_wall_sec": null,
+  "exit_code": 0,
+  "finished_at": "2026-10-08T14:55:27+00:00",
+  "key": "sign_pilot_L3/T1",
+  "kind": "pilot",
+  "log": "logs/SIGN_35000.log",
+  "origin": "preexisting",
+  "stats": "results/SIGN/sign_35000_stats.json",
+  "status": "complete"
+}

@@ -1,0 +1,56 @@
+PLAN 56 cases x 1 algorithms = 56 jobs; physical=48, logical=96, Spark reserved=36, baseline CPUs=[41, 42], active Spark reserved=None.
+First groups: sign_pilot_L3, bms2_unrestricted, foodmart_unrestricted, bms1_fixed_L5, bible_fixed_L3, online_retail_fixed_L5, tafeng_fixed_L3, kosarak_fixed_L3, bms1_length, bible_length, online_retail_length, tafeng_length, kosarak_scalability
+VERSIONS {"ahus": "/work/vendor/pypatternminer/pypatternminer/ahus.py", "uspan": "/work/vendor/pypatternminer/pypatternminer/uspan.py", "husspan": "/work/vendor/pypatternminer/pypatternminer/husspan.py"}
+PREPARE SIGN /work/prepared/direct_utility/SIGN.txt
+PREPARE BMS2 /work/prepared/paper_original/BMS-WebView-2.txt
+PREPARE FOODMART /work/prepared/paper_original/Foodmart.txt
+PREPARE BMS1 /work/prepared/paper_original/BMS-WebView-1.txt
+PREPARE BIBLE /work/prepared/direct_utility/Bible.txt
+PREPARE ONLINE_RETAIL /work/prepared/paper_original/OnlineRetail.txt
+PREPARE TAFENG /work/prepared/paper_original/Tafeng.txt
+PREPARE KOSARAK /work/prepared/direct_utility/KOSARAK_full.txt
+REUSE uspan sign_pilot_L3/T1
+REUSE uspan sign_pilot_L3/T2
+REUSE uspan bms2_unrestricted/T1
+REUSE uspan START uspan/sign_pilot_L3/T3 cpu=41 threshold_scaled=25000 time=2026-10-09T08:49:22+00:00bms2_unrestricted/T2
+
+REUSE uspan bms2_unrestricted/T3
+START uspan/bms2_unrestricted/T4 cpu=42 threshold_scaled=40001 time=2026-10-09T08:49:22+00:00
+END uspan/sign_pilot_L3/T3 complete exit=0 wall=1118.9s
+START uspan/sign_pilot_L3/T4 cpu=41 threshold_scaled=20000 time=2026-10-09T09:08:01+00:00
+END uspan/bms2_unrestricted/T4 timeout exit=-15 wall=1200.0s
+START uspan/foodmart_unrestricted/T1 cpu=42 threshold_scaled=277993 time=2026-10-09T09:09:22+00:00
+END uspan/sign_pilot_L3/T4 timeout exit=-15 wall=1200.2s
+START uspan/bms1_fixed_L5/T1 cpu=41 threshold_scaled=50001 time=2026-10-09T09:28:01+00:00
+END uspan/foodmart_unrestricted/T1 timeout exit=-15 wall=1200.2s
+REUSE uspan bible_fixed_L3/T1
+REUSE uspan bible_fixed_L3/T2
+REUSE uspan bible_fixed_L3/T3
+START uspan/bible_fixed_L3/T4 cpu=42 threshold_scaled=300006 time=2026-10-09T09:29:22+00:00
+END uspan/bible_fixed_L3/T4 complete exit=0 wall=1109.3s
+START uspan/bible_fixed_L3/T5 cpu=42 threshold_scaled=250005 time=2026-10-09T09:47:52+00:00
+END uspan/bms1_fixed_L5/T1 timeout exit=-15 wall=1200.2s
+START uspan/online_retail_fixed_L5/T1 cpu=41 threshold_scaled=93002867 time=2026-10-09T09:48:02+00:00
+END uspan/bible_fixed_L3/T5 timeout exit=-15 wall=1200.2s
+REUSE uspan tafeng_fixed_L3/T1
+REUSE uspan tafeng_fixed_L3/T2
+REUSE uspan tafeng_fixed_L3/T3
+REUSE uspan tafeng_fixed_L3/T4
+REUSE uspan tafeng_fixed_L3/T5
+START uspan/kosarak_fixed_L3/T1 cpu=42 threshold_scaled=1053684 time=2026-10-09T10:07:52+00:00
+END uspan/online_retail_fixed_L5/T1 timeout exit=-15 wall=1200.2s
+REUSE uspan bms1_length/L3
+START uspan/bms1_length/L5 cpu=41 threshold_scaled=44994 time=2026-10-09T10:08:02+00:00
+END uspan/kosarak_fixed_L3/T1 timeout exit=-15 wall=1200.9s
+REUSE uspan bible_length/L3
+START uspan/bible_length/L5 cpu=42 threshold_scaled=449900 time=2026-10-09T10:27:53+00:00
+END uspan/bms1_length/L5 timeout exit=-15 wall=1200.2s
+START uspan/online_retail_length/L3 cpu=41 threshold_scaled=92954983 time=2026-10-09T10:28:02+00:00
+END uspan/bible_length/L5 timeout exit=-15 wall=1200.2s
+REUSE uspan tafeng_length/L3
+REUSE uspan tafeng_length/L5
+REUSE uspan tafeng_length/L7
+START uspan/kosarak_scalability/N100000 cpu=42 threshold_scaled=173965 time=2026-10-09T10:47:53+00:00
+END uspan/online_retail_length/L3 timeout exit=-15 wall=1200.1s
+END uspan/kosarak_scalability/N100000 timeout exit=-15 wall=1200.3s
+FINISHED budget_expired= False summary= /work/results/baselines/summary.csv

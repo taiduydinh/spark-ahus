@@ -1,0 +1,20 @@
+{
+  "comparison": "",
+  "cores": 12,
+  "dataset_sha256": "b4614c97fd916eb8c7002fb55ac49295fea888e110b17bc5a1956fc60f4fa175",
+  "exit_code": 0,
+  "key": "exploratory_Kosarak10K/T1",
+  "kind": "exploratory",
+  "log": "/work/logs/optimized_full_suite/exploratory_Kosarak10K__T1.log",
+  "max_pattern_length": 3,
+  "mode": "global-presence",
+  "partitions": 12,
+  "patterns": "/work/results/optimized_full_suite/exploratory_Kosarak10K__T1_patterns.txt",
+  "source_sha256": "8d222ac56b68a3d5d3f4254a2fc0a867a1636fbeeafaa30b89465d1d5b61ddbe",
+  "stats": "/work/results/optimized_full_suite/exploratory_Kosarak10K__T1_stats.json",
+  "status": "complete",
+  "threshold": "829550",
+  "threshold_type": "min-utility",
+  "timestamp": "2026-10-09T23:37:35+00:00",
+  "wall_sec": 8.9893
+}

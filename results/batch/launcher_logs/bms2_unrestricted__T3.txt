@@ -1,0 +1,9 @@
+Experiment: bms2_unrestricted T3
+Data source: /work/prepared/paper_original/BMS-WebView-2.txt
+Dataset integrity note: Paper database not yet prepared.
+Pattern length: unrestricted
+Command: spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/paper_original/BMS-WebView-2.txt --value-mode utility --partitions 12 --stats-json /work/results/paper_protocol/bms2_unrestricted/T3_stats.json --min-utility-ratio 0.005476917 --count-only
+Finished: exit code 0 wall time 110.1 s
+Log: /work/logs/paper_protocol/bms2_unrestricted/T3.log
+Run metadata: /work/logs/paper_protocol/bms2_unrestricted/T3.meta.json
+Spark stats: /work/results/paper_protocol/bms2_unrestricted/T3_stats.json

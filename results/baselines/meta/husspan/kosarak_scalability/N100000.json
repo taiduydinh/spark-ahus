@@ -1,0 +1,22 @@
+{
+  "algorithm": "husspan",
+  "case": "N100000",
+  "cpu": 43,
+  "duplicates_coalesced": 0,
+  "elapsed_wall_sec": 1200.21,
+  "exit_code": -15,
+  "finished": "2026-10-08T18:07:22+00:00",
+  "group": "kosarak_scalability",
+  "input": "/work/prepared/baselines/KOSARAK_N100000.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/husspan/kosarak_scalability/N100000.log",
+  "max_pattern_length": 3,
+  "min_utility_scaled": 173965,
+  "observed_peak_rss_kb": 1037536,
+  "scale": 1,
+  "source": "/work/prepared/direct_utility/KOSARAK_full.txt",
+  "source_sha256": "d0cfe8d6bb3938bae6f72e670ea61a9c51da29300c16d79f2dcd286625dbc0cb",
+  "stats_path": "/work/results/baselines/husspan/kosarak_scalability/N100000_stats.json",
+  "status": "timeout"
+}

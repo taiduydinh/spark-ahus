@@ -1,0 +1,12 @@
+{
+  "algorithm": "Spark-AHUS",
+  "sequence_count": 234300,
+  "total_utility": 1929487461.0,
+  "min_utility": 109720500.0,
+  "threshold_ratio": 0.056865101337914316,
+  "promising_items": 0,
+  "max_pattern_length": 3,
+  "local_candidate_count": 0,
+  "husp_count": 0,
+  "runtime_sec": 1.9394401808967814
+}

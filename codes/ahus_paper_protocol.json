@@ -1,0 +1,483 @@
+{
+  "paper_title": "AHUS / AHUS-P original manuscript",
+  "paper_source": "ahus(1).tex supplied by user",
+  "paper_reference_environment": {
+    "cpu": "Intel Xeon W3520",
+    "physical_cores": 4,
+    "logical_processors": 4,
+    "ram_gb": 8,
+    "os": "Windows 10",
+    "implementation": "C# .NET Framework / Visual Studio 2015"
+  },
+  "benchmark_caveats": {
+    "SIGN": "Paper reports 800 sequences, 310 distinct items; current file has 730 and 267. Published pruning/memory plots do not explicitly state the maximum pattern length.",
+    "BIBLE": "Paper and current have same sequence count and item domain but the occurrence utilities are not verified identical.",
+    "KOSARAK": "Paper reports about 990,000 sequences; current has 990,002 and separately generated utilities.",
+    "BMS1": "Paper database not yet prepared in our current eight-dataset Spark suite.",
+    "BMS2": "Paper database not yet prepared.",
+    "FOODMART": "Original measured-utility data not yet prepared.",
+    "ONLINE_RETAIL": "Paper OnlineRetail is NOT the same as current ONLINE_RETAIL_II_ALL; do not automatically equate.",
+    "TAFENG": "Original measured-utility data not yet prepared."
+  },
+  "datasets": {
+    "SIGN": {
+      "path": "prepared/direct_utility/SIGN.txt",
+      "has_matching_dataset": "variant",
+      "sequences_current": 730
+    },
+    "BIBLE": {
+      "path": "prepared/direct_utility/Bible.txt",
+      "has_matching_dataset": "variant",
+      "sequences_current": 36369
+    },
+    "KOSARAK": {
+      "path": "prepared/direct_utility/KOSARAK_full.txt",
+      "has_matching_dataset": "variant",
+      "sequences_current": 990002
+    },
+    "BMS1": {
+      "path": "prepared/paper_original/BMS-WebView-1.txt",
+      "has_matching_dataset": "missing"
+    },
+    "BMS2": {
+      "path": "prepared/paper_original/BMS-WebView-2.txt",
+      "has_matching_dataset": "missing"
+    },
+    "FOODMART": {
+      "path": "prepared/paper_original/Foodmart.txt",
+      "has_matching_dataset": "missing"
+    },
+    "ONLINE_RETAIL": {
+      "path": "prepared/paper_original/OnlineRetail.txt",
+      "has_matching_dataset": "missing"
+    },
+    "TAFENG": {
+      "path": "prepared/paper_original/Tafeng.txt",
+      "has_matching_dataset": "missing"
+    }
+  },
+  "groups": {
+    "sign_pilot_L3": {
+      "dataset": "SIGN",
+      "type": "pilot_not_paper",
+      "cases": [
+        {
+          "case": "T1",
+          "min_utility": 35000,
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T2",
+          "min_utility": 30000,
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T3",
+          "min_utility": 25000,
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T4",
+          "min_utility": 20000,
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T5",
+          "min_utility": 15000,
+          "max_pattern_length": 3
+        }
+      ],
+      "notes": "Continuation of existing Spark-AHUS pilots; original SIGN length limit NOT specified in manuscript. NOT an exact paper reproduction.",
+      "source_lines": ""
+    },
+    "sign_pruning": {
+      "dataset": "SIGN",
+      "type": "paper_pruning",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.05517615",
+          "max_pattern_length": null
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.04729385",
+          "max_pattern_length": null
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.03941154",
+          "max_pattern_length": null
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.03152923",
+          "max_pattern_length": null
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.02364692",
+          "max_pattern_length": null
+        }
+      ],
+      "notes": "SIGN pruning and memory comparisons: paper does not explicitly specify maximum length. Must supply --length or --unrestricted.",
+      "source_lines": "~815-845, ~1709-1734"
+    },
+    "bms2_unrestricted": {
+      "dataset": "BMS2",
+      "type": "paper_full_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.007667684",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.006572301",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.005476917",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.004381534",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.003286151",
+          "max_pattern_length": 0
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1000-1037, 1133"
+    },
+    "foodmart_unrestricted": {
+      "dataset": "FOODMART",
+      "type": "paper_full_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.001271492",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.001269205",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.001266918",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.001264631",
+          "max_pattern_length": 0
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.001262344",
+          "max_pattern_length": 0
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1089-1133"
+    },
+    "bms1_fixed_L5": {
+      "dataset": "BMS1",
+      "type": "paper_fixed_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.02018083",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.01816275",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.01614466",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.01412658",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.0121085",
+          "max_pattern_length": 5
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1151-1177"
+    },
+    "bible_fixed_L3": {
+      "dataset": "BIBLE",
+      "type": "paper_fixed_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.0351085",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.03120756",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.02730661",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.02340567",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.01950472",
+          "max_pattern_length": 3
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1195-1221"
+    },
+    "online_retail_fixed_L5": {
+      "dataset": "ONLINE_RETAIL",
+      "type": "paper_fixed_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.08334291",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.08244675",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.08155058",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.08065443",
+          "max_pattern_length": 5
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1239-1262"
+    },
+    "tafeng_fixed_L3": {
+      "dataset": "TAFENG",
+      "type": "paper_fixed_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.06045621",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.06045593",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.06045565",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.06045536",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.06045508",
+          "max_pattern_length": 3
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1278-1304"
+    },
+    "kosarak_fixed_L3": {
+      "dataset": "KOSARAK",
+      "type": "paper_fixed_length",
+      "cases": [
+        {
+          "case": "T1",
+          "threshold_ratio": "0.002730303",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T2",
+          "threshold_ratio": "0.002145238",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T3",
+          "threshold_ratio": "0.001950216",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T4",
+          "threshold_ratio": "0.001755195",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "T5",
+          "threshold_ratio": "0.001560173",
+          "max_pattern_length": 3
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1524-1555"
+    },
+    "bms1_length": {
+      "dataset": "BMS1",
+      "type": "paper_length_sweep",
+      "cases": [
+        {
+          "case": "L3",
+          "threshold_ratio": "0.01816",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "L5",
+          "threshold_ratio": "0.01816",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "L7",
+          "threshold_ratio": "0.01816",
+          "max_pattern_length": 7
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1327-1347"
+    },
+    "bible_length": {
+      "dataset": "BIBLE",
+      "type": "paper_length_sweep",
+      "cases": [
+        {
+          "case": "L3",
+          "threshold_ratio": "0.0351",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "L5",
+          "threshold_ratio": "0.0351",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "L7",
+          "threshold_ratio": "0.0351",
+          "max_pattern_length": 7
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1364-1384"
+    },
+    "online_retail_length": {
+      "dataset": "ONLINE_RETAIL",
+      "type": "paper_length_sweep",
+      "cases": [
+        {
+          "case": "L3",
+          "threshold_ratio": "0.0833",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "L5",
+          "threshold_ratio": "0.0833",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "L7",
+          "threshold_ratio": "0.0833",
+          "max_pattern_length": 7
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1401-1421"
+    },
+    "tafeng_length": {
+      "dataset": "TAFENG",
+      "type": "paper_length_sweep",
+      "cases": [
+        {
+          "case": "L3",
+          "threshold_ratio": "0.06045",
+          "max_pattern_length": 3
+        },
+        {
+          "case": "L5",
+          "threshold_ratio": "0.06045",
+          "max_pattern_length": 5
+        },
+        {
+          "case": "L7",
+          "threshold_ratio": "0.06045",
+          "max_pattern_length": 7
+        }
+      ],
+      "notes": "",
+      "source_lines": "~1436-1456"
+    },
+    "kosarak_scalability": {
+      "dataset": "KOSARAK",
+      "type": "paper_scalability",
+      "cases": [
+        {
+          "case": "N100000",
+          "threshold_ratio": "0.0045",
+          "max_pattern_length": 3,
+          "first_n_sequences": 100000
+        },
+        {
+          "case": "N150000",
+          "threshold_ratio": "0.0045",
+          "max_pattern_length": 3,
+          "first_n_sequences": 150000
+        },
+        {
+          "case": "N200000",
+          "threshold_ratio": "0.0045",
+          "max_pattern_length": 3,
+          "first_n_sequences": 200000
+        },
+        {
+          "case": "N300000",
+          "threshold_ratio": "0.0045",
+          "max_pattern_length": 3,
+          "first_n_sequences": 300000
+        },
+        {
+          "case": "N600000",
+          "threshold_ratio": "0.0045",
+          "max_pattern_length": 3,
+          "first_n_sequences": 600000
+        }
+      ],
+      "notes": "Use deterministic FIRST N sequence records. Paper states subsizes but not its sample-selection method; these are methodological approximations.",
+      "source_lines": "~1507, ~1555"
+    }
+  }
+}

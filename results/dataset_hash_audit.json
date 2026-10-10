@@ -1,0 +1,302 @@
+{
+  "available_matching": 58,
+  "available_mismatching": 0,
+  "unavailable": 1,
+  "details": [
+    {
+      "case": "bible_fixed_L3/T1",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_fixed_L3/T2",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_fixed_L3/T3",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_fixed_L3/T4",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_fixed_L3/T5",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_length/L3",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_length/L5",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bible_length/L7",
+      "verified": true,
+      "source_relative": "direct_utility/Bible.txt"
+    },
+    {
+      "case": "bms1_fixed_L5/T1",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-1.txt"
+    },
+    {
+      "case": "bms1_length/L3",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-1.txt"
+    },
+    {
+      "case": "bms1_length/L5",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-1.txt"
+    },
+    {
+      "case": "bms2_unrestricted/T1",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-2.txt"
+    },
+    {
+      "case": "bms2_unrestricted/T2",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-2.txt"
+    },
+    {
+      "case": "bms2_unrestricted/T3",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-2.txt"
+    },
+    {
+      "case": "bms2_unrestricted/T4",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-2.txt"
+    },
+    {
+      "case": "bms2_unrestricted/T5",
+      "verified": true,
+      "source_relative": "paper_original/BMS-WebView-2.txt"
+    },
+    {
+      "case": "exploratory_C8T1S5I8N5K/T1",
+      "verified": true,
+      "source_relative": "direct_utility/C8T1S5I8N5K.txt"
+    },
+    {
+      "case": "exploratory_C8T1S5I8N5K/T2",
+      "verified": true,
+      "source_relative": "direct_utility/C8T1S5I8N5K.txt"
+    },
+    {
+      "case": "exploratory_C8T1S5I8N5K/T3",
+      "verified": true,
+      "source_relative": "direct_utility/C8T1S5I8N5K.txt"
+    },
+    {
+      "case": "exploratory_C8T1S5I8N5K/T4",
+      "verified": true,
+      "source_relative": "direct_utility/C8T1S5I8N5K.txt"
+    },
+    {
+      "case": "exploratory_C8T1S5I8N5K/T5",
+      "verified": true,
+      "source_relative": "direct_utility/C8T1S5I8N5K.txt"
+    },
+    {
+      "case": "exploratory_FIFA/T1",
+      "verified": true,
+      "source_relative": "direct_utility/FIFA.txt"
+    },
+    {
+      "case": "exploratory_FIFA/T2",
+      "verified": true,
+      "source_relative": "direct_utility/FIFA.txt"
+    },
+    {
+      "case": "exploratory_FIFA/T3",
+      "verified": true,
+      "source_relative": "direct_utility/FIFA.txt"
+    },
+    {
+      "case": "exploratory_FIFA/T4",
+      "verified": true,
+      "source_relative": "direct_utility/FIFA.txt"
+    },
+    {
+      "case": "exploratory_FIFA/T5",
+      "verified": true,
+      "source_relative": "direct_utility/FIFA.txt"
+    },
+    {
+      "case": "exploratory_Kosarak10K/T1",
+      "verified": true,
+      "source_relative": "direct_utility/Kosarak10K.txt"
+    },
+    {
+      "case": "exploratory_Kosarak10K/T2",
+      "verified": true,
+      "source_relative": "direct_utility/Kosarak10K.txt"
+    },
+    {
+      "case": "exploratory_Kosarak10K/T3",
+      "verified": true,
+      "source_relative": "direct_utility/Kosarak10K.txt"
+    },
+    {
+      "case": "exploratory_Kosarak10K/T4",
+      "verified": true,
+      "source_relative": "direct_utility/Kosarak10K.txt"
+    },
+    {
+      "case": "exploratory_Kosarak10K/T5",
+      "verified": true,
+      "source_relative": "direct_utility/Kosarak10K.txt"
+    },
+    {
+      "case": "exploratory_Leviathan/T1",
+      "verified": true,
+      "source_relative": "direct_utility/Leviathan.txt"
+    },
+    {
+      "case": "exploratory_Leviathan/T2",
+      "verified": true,
+      "source_relative": "direct_utility/Leviathan.txt"
+    },
+    {
+      "case": "exploratory_Leviathan/T3",
+      "verified": true,
+      "source_relative": "direct_utility/Leviathan.txt"
+    },
+    {
+      "case": "exploratory_Leviathan/T4",
+      "verified": true,
+      "source_relative": "direct_utility/Leviathan.txt"
+    },
+    {
+      "case": "exploratory_Leviathan/T5",
+      "verified": true,
+      "source_relative": "direct_utility/Leviathan.txt"
+    },
+    {
+      "case": "exploratory_Yoochoose/T1",
+      "verified": true,
+      "source_relative": "direct_utility/Yoochoose.txt"
+    },
+    {
+      "case": "exploratory_Yoochoose/T2",
+      "verified": true,
+      "source_relative": "direct_utility/Yoochoose.txt"
+    },
+    {
+      "case": "exploratory_Yoochoose/T3",
+      "verified": true,
+      "source_relative": "direct_utility/Yoochoose.txt"
+    },
+    {
+      "case": "exploratory_Yoochoose/T4",
+      "verified": true,
+      "source_relative": "direct_utility/Yoochoose.txt"
+    },
+    {
+      "case": "exploratory_Yoochoose/T5",
+      "verified": true,
+      "source_relative": "direct_utility/Yoochoose.txt"
+    },
+    {
+      "case": "foodmart_unrestricted/T1",
+      "verified": true,
+      "source_relative": "paper_original/Foodmart.txt"
+    },
+    {
+      "case": "kosarak_fixed_L3/T1",
+      "verified": null,
+      "source_relative": "direct_utility/KOSARAK_full.txt"
+    },
+    {
+      "case": "kosarak_scalability/N100000",
+      "verified": true,
+      "source_relative": "optimized_full_suite/KOSARAK_full_N100000.txt"
+    },
+    {
+      "case": "online_retail_fixed_L5/T1",
+      "verified": true,
+      "source_relative": "paper_original/OnlineRetail.txt"
+    },
+    {
+      "case": "online_retail_length/L3",
+      "verified": true,
+      "source_relative": "paper_original/OnlineRetail.txt"
+    },
+    {
+      "case": "sign_pilot_L3/T1",
+      "verified": true,
+      "source_relative": "direct_utility/SIGN.txt"
+    },
+    {
+      "case": "sign_pilot_L3/T2",
+      "verified": true,
+      "source_relative": "direct_utility/SIGN.txt"
+    },
+    {
+      "case": "sign_pilot_L3/T3",
+      "verified": true,
+      "source_relative": "direct_utility/SIGN.txt"
+    },
+    {
+      "case": "sign_pilot_L3/T4",
+      "verified": true,
+      "source_relative": "direct_utility/SIGN.txt"
+    },
+    {
+      "case": "sign_pilot_L3/T5",
+      "verified": true,
+      "source_relative": "direct_utility/SIGN.txt"
+    },
+    {
+      "case": "tafeng_fixed_L3/T1",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_fixed_L3/T2",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_fixed_L3/T3",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_fixed_L3/T4",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_fixed_L3/T5",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_length/L3",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_length/L5",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    },
+    {
+      "case": "tafeng_length/L7",
+      "verified": true,
+      "source_relative": "paper_original/Tafeng.txt"
+    }
+  ]
+}

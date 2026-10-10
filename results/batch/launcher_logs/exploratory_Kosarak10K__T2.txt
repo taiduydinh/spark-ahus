@@ -1,0 +1,2 @@
+Command: taskset -c 18,19,20,21,22,23,3,4,5,6,7,8 spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/direct_utility/Kosarak10K.txt --value-mode utility --min-utility 497730 --max-pattern-length 3 --partitions 12 --count-only --stats-json /work/results/exploratory/Kosarak10K/T2_stats.json
+Exit status: 0

@@ -1,0 +1,9 @@
+Experiment: bible_length L5
+Data source: /work/prepared/direct_utility/Bible.txt
+Dataset integrity note: Paper and current have same sequence count and item domain but the occurrence utilities are not verified identical.
+Pattern length: 5
+Command: spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/direct_utility/Bible.txt --value-mode utility --partitions 12 --stats-json /work/results/paper_protocol/bible_length/L5_stats.json --min-utility-ratio 0.0351 --max-pattern-length 5 --count-only
+Finished: exit code 0 wall time 35.81 s
+Log: /work/logs/paper_protocol/bible_length/L5.log
+Run metadata: /work/logs/paper_protocol/bible_length/L5.meta.json
+Spark stats: /work/results/paper_protocol/bible_length/L5_stats.json

@@ -1,0 +1,22 @@
+{
+  "algorithm": "uspan",
+  "case": "T1",
+  "cpu": 42,
+  "duplicates_coalesced": 38,
+  "elapsed_wall_sec": 1200.233,
+  "exit_code": -15,
+  "finished": "2026-10-09T09:29:22+00:00",
+  "group": "foodmart_unrestricted",
+  "input": "/work/prepared/baselines/FOODMART.txt",
+  "item_id_offset": 0,
+  "library_source": "/work/vendor/pypatternminer",
+  "log": "/work/logs/baselines/uspan/foodmart_unrestricted/T1.log",
+  "max_pattern_length": 0,
+  "min_utility_scaled": 277993,
+  "observed_peak_rss_kb": 331308,
+  "scale": 100,
+  "source": "/work/prepared/paper_original/Foodmart.txt",
+  "source_sha256": "c7a17574b631ef27450bde0d051f2f7bdc68354883d6eafa2e303bf6b8087a8f",
+  "stats_path": "/work/results/baselines/uspan/foodmart_unrestricted/T1_stats.json",
+  "status": "timeout"
+}

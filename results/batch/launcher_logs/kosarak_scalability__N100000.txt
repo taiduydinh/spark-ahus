@@ -1,0 +1,10 @@
+Experiment: kosarak_scalability N100000
+Data source: /work/prepared/direct_utility/KOSARAK_full.txt
+Dataset integrity note: Paper reports about 990,000 sequences; current has 990,002 and separately generated utilities.
+Pattern length: 3
+Command: spark-submit --master 'local[12]' --driver-memory 12g /work/spark_ahus.py --input /work/prepared/paper_protocol/scalability/KOSARAK_first_100000.txt --value-mode utility --partitions 12 --stats-json /work/results/paper_protocol/kosarak_scalability/N100000_stats.json --min-utility-ratio 0.0045 --max-pattern-length 3 --count-only
+Finished: exit code 124 wall time 3600.19 s
+Log: /work/logs/paper_protocol/kosarak_scalability/N100000.log
+Run metadata: /work/logs/paper_protocol/kosarak_scalability/N100000.meta.json
+Spark stats: not produced
+Timed out. Do not run a more difficult threshold automatically.
